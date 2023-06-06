@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: black;
+}
+.header{
+	display: block;
+	padding: 30px 0px 0px 50px;
+}
+img{
+	height: auto;
+	width: 7rem;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: -3rem;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+.painel{
+	background: linear-gradient(to bottom, rgb(54, 54, 49), rgb(17, 17, 17));
+	padding: 5rem;
+	border-radius: 5px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.info{
+	border-radius: 10px;
+	box-shadow: 5px 10px rgba(0, 0, 0, 0.377);
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	background: rgb(0, 0, 0);
+	padding: 2rem;
+	color: white;
+}
+.email{
+	margin-bottom: 5px;
+}
+.txt_email, .password{
+	height: 2rem;
+	width: auto;
+	padding: 5px 10px 5px 10px;
+	border-style: none;
+	border: solid 1.5px rgb(122, 122, 122);
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	background: rgb(26, 25, 25);
+}
+
+.senha{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.button{
+	padding: 9px;
+	border-radius: 10px;
+	border-style: none;
+	border: solid 1px black;
+	font-size: 15px;
+	background-color: #1ed760;
+	font-weight: bold;
+}
+
+hr{
+	border-color: rgb(65, 65, 65);
+}
+
+.esqueceu-senha, a{
+	text-align: center;
+	padding-top: 15px;
+	color: white;
+	font-size: 15px;
+}
+
+.esqueceu-senha, a:hover{
+	color: #1ed760;
+}
+
+.button:hover{
+	background-color: #2ddf6b;
+	letter-spacing: 0.4px;
+	transform: scale(1.05);
+}
+
+.remember{
+	display: block;
+	padding: 18px 0px 15px 0px;
+
+}
